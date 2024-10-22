@@ -46,7 +46,7 @@ export const Add = () => {
           >
             <HiMiniXMark className="text-3xl rounded-full bg-[rgba(226,226,226,0.64)] p-2 " />
           </button>
-          <div className="w-[400px] h-[400px] max-lg:w-[350px] bg-white rounded-[20px] border shadow-xl ">
+          <div className="w-[400px] h-[400px] max-lg:w-[350px] max-lg:h-[400px] bg-white rounded-[20px] border shadow-xl ">
             <div className="w-[full] flex justify-center items-center h-[60px] ">
               <h1 className="font-bold text-xl bg-gradient-to-l from-purple-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text">
                 Share your Thoughts
@@ -56,7 +56,7 @@ export const Add = () => {
               <textarea
                 className="w-full  border-[2px] rounded-[10px] border-gray-300 p-3 "
                 rows="10"
-                placeholder="Confess away... no judgments, just pixels!"
+                placeholder="Speak your mind without revealing your identity.."
                 onChange={handleChange}
                 name="idea"
                 value={idea.idea}

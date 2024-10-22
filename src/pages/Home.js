@@ -66,8 +66,10 @@ export const Home = () => {
                 </div>
                 <div className="flex justify-between mt-2">
                   <div>
-                    <h1 className="font-bold text-sm">Anonymous</h1>
-                    <p className="text-xs font-semibold text-blue-500">
+                    <h1 className="font-bold text-sm max-lg:text-xs">
+                      Anonymous
+                    </h1>
+                    <p className="text-xs max-lg:text-[8px] font-semibold text-blue-500">
                       Created at:{ideas.createdAt}
                     </p>
                   </div>
